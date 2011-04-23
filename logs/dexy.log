@@ -912,3 +912,514 @@
 2011-04-23 14:55:17,376 - hello_world.rb|idio - INFO - (step 1) hello_world.rb|idio -> 937a6ea5944b807ce3010081e8d0d9d9.html
 2011-04-23 14:55:17,389 - hello_world.html|jinja - INFO - (step 0) hello_world.html -> 591b3bcf457cf489f25a83f04ecd24df.html
 2011-04-23 14:55:17,424 - hello_world.html|jinja - INFO - (step 1) hello_world.html|jinja -> e9856561ab9135f17cbdb44e429d5f18.html
+2011-04-23 15:05:33,070 - dexy - DEBUG - Loading artifacts in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/dexy/artifacts/file_system_json_artifact.py
+2011-04-23 15:05:33,071 - dexy - DEBUG - Loading artifacts in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/dexy/artifacts/riak_artifact.py
+2011-04-23 15:05:33,072 - dexy - WARNING - artifact defined in dexy.artifacts.riak_artifact are not available: No module named riak
+2011-04-23 15:05:33,072 - dexy - INFO - running dexy with recurse
+2011-04-23 15:05:33,072 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/output_reporter.py
+2011-04-23 15:05:33,073 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/run_reporter.py
+2011-04-23 15:05:33,599 - dexy - INFO - skipping directories named .bzr, .hg, .git, .svn, ignore, filters, artifacts, logs, cache, output-long, output
+2011-04-23 15:05:33,599 - dexy - INFO - processing dir .
+2011-04-23 15:05:33,600 - dexy - INFO - loading config ./.dexy
+2011-04-23 15:05:33,600 - dexy - INFO - loading config ././.dexy
+2011-04-23 15:05:33,600 - dexy - WARNING - skipping dir ./.git
+2011-04-23 15:05:33,600 - dexy - WARNING - skipping dir ./.git/branches
+2011-04-23 15:05:33,600 - dexy - WARNING - skipping dir ./.git/hooks
+2011-04-23 15:05:33,601 - dexy - WARNING - skipping dir ./.git/info
+2011-04-23 15:05:33,601 - dexy - WARNING - skipping dir ./.git/logs
+2011-04-23 15:05:33,601 - dexy - WARNING - skipping dir ./.git/logs/refs
+2011-04-23 15:05:33,601 - dexy - WARNING - skipping dir ./.git/logs/refs/heads
+2011-04-23 15:05:33,601 - dexy - WARNING - skipping dir ./.git/logs/refs/remotes
+2011-04-23 15:05:33,601 - dexy - WARNING - skipping dir ./.git/logs/refs/remotes/origin
+2011-04-23 15:05:33,602 - dexy - WARNING - skipping dir ./.git/objects
+2011-04-23 15:05:33,602 - dexy - WARNING - skipping dir ./.git/objects/00
+2011-04-23 15:05:33,603 - dexy - WARNING - skipping dir ./.git/objects/03
+2011-04-23 15:05:33,603 - dexy - WARNING - skipping dir ./.git/objects/04
+2011-04-23 15:05:33,603 - dexy - WARNING - skipping dir ./.git/objects/07
+2011-04-23 15:05:33,603 - dexy - WARNING - skipping dir ./.git/objects/0d
+2011-04-23 15:05:33,603 - dexy - WARNING - skipping dir ./.git/objects/10
+2011-04-23 15:05:33,603 - dexy - WARNING - skipping dir ./.git/objects/11
+2011-04-23 15:05:33,604 - dexy - WARNING - skipping dir ./.git/objects/12
+2011-04-23 15:05:33,604 - dexy - WARNING - skipping dir ./.git/objects/13
+2011-04-23 15:05:33,604 - dexy - WARNING - skipping dir ./.git/objects/1d
+2011-04-23 15:05:33,604 - dexy - WARNING - skipping dir ./.git/objects/1e
+2011-04-23 15:05:33,604 - dexy - WARNING - skipping dir ./.git/objects/1f
+2011-04-23 15:05:33,604 - dexy - WARNING - skipping dir ./.git/objects/25
+2011-04-23 15:05:33,605 - dexy - WARNING - skipping dir ./.git/objects/28
+2011-04-23 15:05:33,605 - dexy - WARNING - skipping dir ./.git/objects/2a
+2011-04-23 15:05:33,605 - dexy - WARNING - skipping dir ./.git/objects/2c
+2011-04-23 15:05:33,605 - dexy - WARNING - skipping dir ./.git/objects/2f
+2011-04-23 15:05:33,605 - dexy - WARNING - skipping dir ./.git/objects/31
+2011-04-23 15:05:33,605 - dexy - WARNING - skipping dir ./.git/objects/33
+2011-04-23 15:05:33,606 - dexy - WARNING - skipping dir ./.git/objects/3a
+2011-04-23 15:05:33,606 - dexy - WARNING - skipping dir ./.git/objects/3c
+2011-04-23 15:05:33,606 - dexy - WARNING - skipping dir ./.git/objects/3f
+2011-04-23 15:05:33,606 - dexy - WARNING - skipping dir ./.git/objects/47
+2011-04-23 15:05:33,606 - dexy - WARNING - skipping dir ./.git/objects/49
+2011-04-23 15:05:33,606 - dexy - WARNING - skipping dir ./.git/objects/4c
+2011-04-23 15:05:33,607 - dexy - WARNING - skipping dir ./.git/objects/50
+2011-04-23 15:05:33,607 - dexy - WARNING - skipping dir ./.git/objects/53
+2011-04-23 15:05:33,607 - dexy - WARNING - skipping dir ./.git/objects/57
+2011-04-23 15:05:33,607 - dexy - WARNING - skipping dir ./.git/objects/5a
+2011-04-23 15:05:33,607 - dexy - WARNING - skipping dir ./.git/objects/5b
+2011-04-23 15:05:33,608 - dexy - WARNING - skipping dir ./.git/objects/5c
+2011-04-23 15:05:33,608 - dexy - WARNING - skipping dir ./.git/objects/5d
+2011-04-23 15:05:33,608 - dexy - WARNING - skipping dir ./.git/objects/63
+2011-04-23 15:05:33,608 - dexy - WARNING - skipping dir ./.git/objects/64
+2011-04-23 15:05:33,608 - dexy - WARNING - skipping dir ./.git/objects/65
+2011-04-23 15:05:33,609 - dexy - WARNING - skipping dir ./.git/objects/67
+2011-04-23 15:05:33,609 - dexy - WARNING - skipping dir ./.git/objects/69
+2011-04-23 15:05:33,609 - dexy - WARNING - skipping dir ./.git/objects/6b
+2011-04-23 15:05:33,609 - dexy - WARNING - skipping dir ./.git/objects/79
+2011-04-23 15:05:33,609 - dexy - WARNING - skipping dir ./.git/objects/81
+2011-04-23 15:05:33,610 - dexy - WARNING - skipping dir ./.git/objects/8b
+2011-04-23 15:05:33,610 - dexy - WARNING - skipping dir ./.git/objects/8d
+2011-04-23 15:05:33,610 - dexy - WARNING - skipping dir ./.git/objects/8e
+2011-04-23 15:05:33,610 - dexy - WARNING - skipping dir ./.git/objects/8f
+2011-04-23 15:05:33,610 - dexy - WARNING - skipping dir ./.git/objects/92
+2011-04-23 15:05:33,610 - dexy - WARNING - skipping dir ./.git/objects/98
+2011-04-23 15:05:33,611 - dexy - WARNING - skipping dir ./.git/objects/a2
+2011-04-23 15:05:33,611 - dexy - WARNING - skipping dir ./.git/objects/a7
+2011-04-23 15:05:33,611 - dexy - WARNING - skipping dir ./.git/objects/a8
+2011-04-23 15:05:33,611 - dexy - WARNING - skipping dir ./.git/objects/aa
+2011-04-23 15:05:33,611 - dexy - WARNING - skipping dir ./.git/objects/ab
+2011-04-23 15:05:33,611 - dexy - WARNING - skipping dir ./.git/objects/ad
+2011-04-23 15:05:33,611 - dexy - WARNING - skipping dir ./.git/objects/b2
+2011-04-23 15:05:33,612 - dexy - WARNING - skipping dir ./.git/objects/b4
+2011-04-23 15:05:33,612 - dexy - WARNING - skipping dir ./.git/objects/b7
+2011-04-23 15:05:33,612 - dexy - WARNING - skipping dir ./.git/objects/b8
+2011-04-23 15:05:33,612 - dexy - WARNING - skipping dir ./.git/objects/bc
+2011-04-23 15:05:33,612 - dexy - WARNING - skipping dir ./.git/objects/bf
+2011-04-23 15:05:33,613 - dexy - WARNING - skipping dir ./.git/objects/c6
+2011-04-23 15:05:33,613 - dexy - WARNING - skipping dir ./.git/objects/c8
+2011-04-23 15:05:33,613 - dexy - WARNING - skipping dir ./.git/objects/d0
+2011-04-23 15:05:33,613 - dexy - WARNING - skipping dir ./.git/objects/d1
+2011-04-23 15:05:33,613 - dexy - WARNING - skipping dir ./.git/objects/d5
+2011-04-23 15:05:33,613 - dexy - WARNING - skipping dir ./.git/objects/d6
+2011-04-23 15:05:33,614 - dexy - WARNING - skipping dir ./.git/objects/e9
+2011-04-23 15:05:33,614 - dexy - WARNING - skipping dir ./.git/objects/ea
+2011-04-23 15:05:33,614 - dexy - WARNING - skipping dir ./.git/objects/f1
+2011-04-23 15:05:33,614 - dexy - WARNING - skipping dir ./.git/objects/f3
+2011-04-23 15:05:33,614 - dexy - WARNING - skipping dir ./.git/objects/f5
+2011-04-23 15:05:33,614 - dexy - WARNING - skipping dir ./.git/objects/f6
+2011-04-23 15:05:33,615 - dexy - WARNING - skipping dir ./.git/objects/f8
+2011-04-23 15:05:33,615 - dexy - WARNING - skipping dir ./.git/objects/fc
+2011-04-23 15:05:33,615 - dexy - WARNING - skipping dir ./.git/objects/fd
+2011-04-23 15:05:33,615 - dexy - WARNING - skipping dir ./.git/objects/info
+2011-04-23 15:05:33,615 - dexy - WARNING - skipping dir ./.git/objects/pack
+2011-04-23 15:05:33,615 - dexy - WARNING - skipping dir ./.git/refs
+2011-04-23 15:05:33,615 - dexy - WARNING - skipping dir ./.git/refs/heads
+2011-04-23 15:05:33,616 - dexy - WARNING - skipping dir ./.git/refs/remotes
+2011-04-23 15:05:33,616 - dexy - WARNING - skipping dir ./.git/refs/remotes/origin
+2011-04-23 15:05:33,616 - dexy - WARNING - skipping dir ./.git/refs/tags
+2011-04-23 15:05:33,616 - dexy - WARNING - skipping dir ./artifacts
+2011-04-23 15:05:33,617 - dexy - WARNING - skipping dir ./logs
+2011-04-23 15:05:33,617 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-36-44
+2011-04-23 15:05:33,617 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-36-44/lib
+2011-04-23 15:05:33,617 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-36-44/lib/css
+2011-04-23 15:05:33,617 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-36-44/lib/images
+2011-04-23 15:05:33,617 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-42-28
+2011-04-23 15:05:33,618 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-42-28/lib
+2011-04-23 15:05:33,618 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-42-28/lib/css
+2011-04-23 15:05:33,618 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-42-28/lib/images
+2011-04-23 15:05:33,618 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-22
+2011-04-23 15:05:33,618 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-22/lib
+2011-04-23 15:05:33,619 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-22/lib/css
+2011-04-23 15:05:33,619 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-22/lib/images
+2011-04-23 15:05:33,619 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-44
+2011-04-23 15:05:33,619 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-44/lib
+2011-04-23 15:05:33,619 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-44/lib/css
+2011-04-23 15:05:33,620 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-44/lib/images
+2011-04-23 15:05:33,620 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-55-19
+2011-04-23 15:05:33,620 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-55-19/lib
+2011-04-23 15:05:33,620 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-55-19/lib/css
+2011-04-23 15:05:33,620 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-55-19/lib/images
+2011-04-23 15:05:33,620 - dexy - WARNING - skipping dir ./output
+2011-04-23 15:05:33,621 - dexy - WARNING - skipping dir ./output-long
+2011-04-23 15:05:33,621 - dexy - INFO - Automatically loading all filters found in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers
+2011-04-23 15:05:33,621 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/asciidoc.py
+2011-04-23 15:05:33,633 - dexy - INFO - class AsciidocHandler is not available because asciidoc -b not found
+2011-04-23 15:05:33,635 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/blog_handler.py
+2011-04-23 15:05:33,638 - dexy - INFO - class BlogHandler is not available because it has no aliases
+2011-04-23 15:05:33,638 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/boto_handlers.py
+2011-04-23 15:05:33,639 - dexy - WARNING - filters defined in handlers.boto_handlers are not available: No module named boto.s3.key
+2011-04-23 15:05:33,640 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/clang.py
+2011-04-23 15:05:33,646 - dexy - INFO - registered alias c for class CHandler
+2011-04-23 15:05:33,647 - dexy - INFO - registered alias gcc for class CHandler
+2011-04-23 15:05:33,652 - dexy - INFO - registered alias clang for class ClangHandler
+2011-04-23 15:05:33,658 - dexy - INFO - registered alias cint for class ClangInteractiveHandler
+2011-04-23 15:05:33,664 - dexy - INFO - registered alias ctime for class ClangTimingHandler
+2011-04-23 15:05:33,671 - dexy - INFO - registered alias cpp for class CppHandler
+2011-04-23 15:05:33,671 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/cucumber_handler.py
+2011-04-23 15:05:33,678 - dexy - INFO - class CucumberHandler is not available because cucumber not found
+2011-04-23 15:05:33,678 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/idio_handler.py
+2011-04-23 15:05:33,689 - dexy - INFO - registered alias idio for class IdioHandler
+2011-04-23 15:05:33,689 - dexy - INFO - registered alias idiopidae for class IdioHandler
+2011-04-23 15:05:33,689 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/java_handlers.py
+2011-04-23 15:05:33,702 - dexy - INFO - registered alias java for class JavaHandler
+2011-04-23 15:05:33,703 - dexy - INFO - registered alias javadoc for class JavadocsJsonFilter
+2011-04-23 15:05:33,703 - dexy - INFO - registered alias javadocs for class JavadocsJsonFilter
+2011-04-23 15:05:33,709 - dexy - INFO - class JirbHandler is not available because jirb --prompt-mode simple not found
+2011-04-23 15:05:33,716 - dexy - INFO - class JrubyHandler is not available because jruby not found
+2011-04-23 15:05:33,722 - dexy - INFO - class JythonHandler is not available because jython not found
+2011-04-23 15:05:33,727 - dexy - INFO - class JythonInteractiveHandler is not available because jython -i not found
+2011-04-23 15:05:33,728 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/jinja_handler.py
+2011-04-23 15:05:33,739 - dexy - INFO - registered alias fn for class FilenameHandler
+2011-04-23 15:05:33,739 - dexy - INFO - registered alias jinja for class JinjaHandler
+2011-04-23 15:05:33,739 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/misc.py
+2011-04-23 15:05:33,740 - dexy - INFO - registered alias b for class ConvertBashFormatHandler
+2011-04-23 15:05:33,740 - dexy - INFO - registered alias forcebash for class ConvertBashFormatHandler
+2011-04-23 15:05:33,740 - dexy - INFO - registered alias ch for class ConvertHTMLFormatHandler
+2011-04-23 15:05:33,740 - dexy - INFO - registered alias ct for class ConvertTextFormatHandler
+2011-04-23 15:05:33,740 - dexy - INFO - registered alias h for class HtmlFormatHandler
+2011-04-23 15:05:33,740 - dexy - INFO - registered alias forcehtml for class HtmlFormatHandler
+2011-04-23 15:05:33,740 - dexy - INFO - registered alias j for class JsonFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - registered alias forcejson for class JsonFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - registered alias l for class LatexFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - registered alias forcelatex for class LatexFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - registered alias p for class PdfFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - registered alias forcepdf for class PdfFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - registered alias forcer for class RFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - registered alias t for class TextFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - registered alias forcetext for class TextFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - registered alias x for class XmlFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - registered alias forcexml for class XmlFormatHandler
+2011-04-23 15:05:33,741 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/pexpect_handlers.py
+2011-04-23 15:05:33,748 - dexy - INFO - registered alias clj for class ClojureInteractiveHandler
+2011-04-23 15:05:33,748 - dexy - INFO - registered alias cljint for class ClojureInteractiveHandler
+2011-04-23 15:05:33,754 - dexy - INFO - class DotHandler is not available because dot not found
+2011-04-23 15:05:33,762 - dexy - INFO - class Pdf2Jpg is not available because gs not found
+2011-04-23 15:05:33,776 - dexy - INFO - class Pdf2Png is not available because gs not found
+2011-04-23 15:05:33,784 - dexy - INFO - registered alias pycon for class ProcessLinewiseInteractiveHandler
+2011-04-23 15:05:33,792 - dexy - INFO - class ProcessSectionwiseInteractiveHandler is not available because R --quiet --vanilla not found
+2011-04-23 15:05:33,799 - dexy - INFO - registered alias timing for class ProcessTimingHandler
+2011-04-23 15:05:33,799 - dexy - INFO - registered alias pytime for class ProcessTimingHandler
+2011-04-23 15:05:33,806 - dexy - INFO - class Ps2Pdf is not available because ps2pdf not found
+2011-04-23 15:05:33,813 - dexy - INFO - class RagelRubyDotHandler is not available because ragel -R not found
+2011-04-23 15:05:33,821 - dexy - INFO - class RagelRubyHandler is not available because ragel -R not found
+2011-04-23 15:05:33,821 - dexy - INFO - registered alias voice for class VoiceHandler
+2011-04-23 15:05:33,822 - dexy - INFO - registered alias say for class VoiceHandler
+2011-04-23 15:05:33,822 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/posterous_handler.py
+2011-04-23 15:05:33,823 - dexy - WARNING - filters defined in handlers.posterous_handler are not available: No module named posterous
+2011-04-23 15:05:33,823 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/pyg_handler.py
+2011-04-23 15:05:33,824 - dexy - INFO - registered alias pyg for class PygHandler
+2011-04-23 15:05:33,824 - dexy - INFO - registered alias pygments for class PygHandler
+2011-04-23 15:05:33,824 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/pynliner_handler.py
+2011-04-23 15:05:33,825 - dexy - INFO - registered alias pynliner for class PynlinerHandler
+2011-04-23 15:05:33,825 - dexy - INFO - registered alias inlinecss for class PynlinerHandler
+2011-04-23 15:05:33,825 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/python_handlers.py
+2011-04-23 15:05:33,832 - dexy - INFO - registered alias archive for class ArchiveHandler
+2011-04-23 15:05:33,832 - dexy - INFO - registered alias tgz for class ArchiveHandler
+2011-04-23 15:05:33,832 - dexy - INFO - registered alias cp for class CopyHandler
+2011-04-23 15:05:33,832 - dexy - INFO - registered alias ft for class FooterHandler
+2011-04-23 15:05:33,832 - dexy - INFO - registered alias footer for class FooterHandler
+2011-04-23 15:05:33,832 - dexy - INFO - registered alias head for class HeadHandler
+2011-04-23 15:05:33,832 - dexy - INFO - registered alias hd for class HeaderHandler
+2011-04-23 15:05:33,832 - dexy - INFO - registered alias header for class HeaderHandler
+2011-04-23 15:05:33,832 - dexy - INFO - registered alias join for class JoinHandler
+2011-04-23 15:05:33,833 - dexy - INFO - registered alias split for class SplitHtmlHandler
+2011-04-23 15:05:33,833 - dexy - INFO - registered alias splithtml for class SplitHtmlHandler
+2011-04-23 15:05:33,833 - dexy - INFO - registered alias splitlatex for class SplitLatexHandler
+2011-04-23 15:05:33,833 - dexy - INFO - registered alias test for class TestHandler
+2011-04-23 15:05:33,833 - dexy - INFO - registered alias ww for class WordWrapHandler
+2011-04-23 15:05:33,833 - dexy - INFO - registered alias wrap for class WordWrapHandler
+2011-04-23 15:05:33,833 - dexy - INFO - registered alias zip for class ZipArchiveHandler
+2011-04-23 15:05:33,833 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/stdout_handlers.py
+2011-04-23 15:05:33,847 - dexy - INFO - registered alias bash for class BashHandler
+2011-04-23 15:05:33,855 - dexy - INFO - registered alias escript for class EscriptHandler
+2011-04-23 15:05:33,862 - dexy - INFO - class LuaHandler is not available because lua not found
+2011-04-23 15:05:33,868 - dexy - INFO - registered alias php for class PhpHandler
+2011-04-23 15:05:33,878 - dexy - INFO - registered alias py for class ProcessStdoutHandler
+2011-04-23 15:05:33,880 - dexy - INFO - registered alias python for class ProcessStdoutHandler
+2011-04-23 15:05:33,880 - dexy - INFO - registered alias pyout for class ProcessStdoutHandler
+2011-04-23 15:05:33,896 - dexy - INFO - class RdConvHandler is not available because R CMD Rdconv not found
+2011-04-23 15:05:33,902 - dexy - INFO - registered alias redcloth for class RedclothHandler
+2011-04-23 15:05:33,903 - dexy - INFO - registered alias textile for class RedclothHandler
+2011-04-23 15:05:33,908 - dexy - INFO - registered alias redclothl for class RedclothLatexHandler
+2011-04-23 15:05:33,909 - dexy - INFO - registered alias latextile for class RedclothLatexHandler
+2011-04-23 15:05:33,914 - dexy - INFO - class Rst2BeamerHandler is not available because rst2beamer not found
+2011-04-23 15:05:33,921 - dexy - INFO - class Rst2HtmlHandler is not available because rst2html.py not found
+2011-04-23 15:05:33,928 - dexy - INFO - class Rst2LatexHandler is not available because rst2latex.py not found
+2011-04-23 15:05:33,934 - dexy - INFO - registered alias rb for class RubyStdoutHandler
+2011-04-23 15:05:33,940 - dexy - INFO - class SloccountHandler is not available because sloccount not found
+2011-04-23 15:05:33,941 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/subprocess_handlers.py
+2011-04-23 15:05:33,948 - dexy - INFO - class EmbedFonts is not available because ps2pdf not found
+2011-04-23 15:05:33,948 - dexy - INFO - registered alias latex for class LatexHandler
+2011-04-23 15:05:33,955 - dexy - INFO - class RBatchHandler is not available because R CMD BATCH --vanilla --quiet --no-timing not found
+2011-04-23 15:05:33,962 - dexy - INFO - class ROutputBatchHandler is not available because R CMD BATCH --vanilla --quiet --slave --no-timing not found
+2011-04-23 15:05:33,968 - dexy - INFO - class Rd2PdfHandler is not available because R CMD Rd2pdf not found
+2011-04-23 15:05:33,969 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/tumblr_handler.py
+2011-04-23 15:05:33,970 - dexy - WARNING - filters defined in handlers.tumblr_handler are not available: No module named tumblr
+2011-04-23 15:05:33,970 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/vanillaforums_handlers.py
+2011-04-23 15:05:33,971 - dexy - WARNING - filters defined in handlers.vanillaforums_handlers are not available: No module named pycurl
+2011-04-23 15:05:33,971 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/word_press_handler.py
+2011-04-23 15:05:33,974 - dexy - INFO - class BlogHandler is not available because it has no aliases
+2011-04-23 15:05:33,974 - dexy - INFO - registered alias wp for class WordPressHandler
+2011-04-23 15:05:33,974 - dexy - INFO - ...finished loading filters from /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers
+2011-04-23 15:05:33,975 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/output_reporter.py
+2011-04-23 15:05:33,975 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/run_reporter.py
+2011-04-23 15:05:33,975 - dexy - DEBUG - About to process config
+
+2011-04-23 15:05:33,975 - dexy - DEBUG - {'.': {u'*.html|jinja': {u'allinputs': True}, u'*.rb|idio|inlinecss': {}, u'*.css|cp': {}}}
+2011-04-23 15:05:33,990 - pastie.css|cp - INFO - (step 0) pastie.css -> ba3637c7a4782cbd62bd09c4072ed859.css
+2011-04-23 15:05:34,000 - pastie.css|cp - INFO - (step 1) pastie.css|cp -> df1b0d4dee559e32d3de83f01b7bd424.css
+2011-04-23 15:05:34,014 - hello_world.rb|idio|inlinecss - INFO - (step 0) hello_world.rb -> 1bb81e6405668fc2fe04b04bdcc4fe66.rb
+2011-04-23 15:05:34,026 - hello_world.rb|idio|inlinecss - INFO - (step 1) hello_world.rb|idio -> 937a6ea5944b807ce3010081e8d0d9d9.html
+2011-04-23 15:05:35,323 - hello_world.rb|idio|inlinecss - INFO - (step 2) hello_world.rb|idio|inlinecss -> ed76e55ce41862cfd504ec6e1e5362cb.html
+2011-04-23 15:05:35,334 - readme.html|jinja - INFO - (step 0) readme.html -> 30119a84d0b02e449a264e2851e393a7.html
+2011-04-23 15:06:33,257 - dexy - DEBUG - Loading artifacts in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/dexy/artifacts/file_system_json_artifact.py
+2011-04-23 15:06:33,258 - dexy - DEBUG - Loading artifacts in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/dexy/artifacts/riak_artifact.py
+2011-04-23 15:06:33,259 - dexy - WARNING - artifact defined in dexy.artifacts.riak_artifact are not available: No module named riak
+2011-04-23 15:06:33,259 - dexy - INFO - running dexy with recurse
+2011-04-23 15:06:33,259 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/output_reporter.py
+2011-04-23 15:06:33,260 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/run_reporter.py
+2011-04-23 15:06:33,903 - dexy - INFO - skipping directories named .bzr, .hg, .git, .svn, ignore, filters, artifacts, logs, cache, output-long, output
+2011-04-23 15:06:33,904 - dexy - INFO - processing dir .
+2011-04-23 15:06:33,904 - dexy - INFO - loading config ./.dexy
+2011-04-23 15:06:33,904 - dexy - INFO - loading config ././.dexy
+2011-04-23 15:06:33,904 - dexy - WARNING - skipping dir ./.git
+2011-04-23 15:06:33,905 - dexy - WARNING - skipping dir ./.git/branches
+2011-04-23 15:06:33,905 - dexy - WARNING - skipping dir ./.git/hooks
+2011-04-23 15:06:33,905 - dexy - WARNING - skipping dir ./.git/info
+2011-04-23 15:06:33,905 - dexy - WARNING - skipping dir ./.git/logs
+2011-04-23 15:06:33,906 - dexy - WARNING - skipping dir ./.git/logs/refs
+2011-04-23 15:06:33,906 - dexy - WARNING - skipping dir ./.git/logs/refs/heads
+2011-04-23 15:06:33,906 - dexy - WARNING - skipping dir ./.git/logs/refs/remotes
+2011-04-23 15:06:33,906 - dexy - WARNING - skipping dir ./.git/logs/refs/remotes/origin
+2011-04-23 15:06:33,908 - dexy - WARNING - skipping dir ./.git/objects
+2011-04-23 15:06:33,908 - dexy - WARNING - skipping dir ./.git/objects/00
+2011-04-23 15:06:33,908 - dexy - WARNING - skipping dir ./.git/objects/03
+2011-04-23 15:06:33,908 - dexy - WARNING - skipping dir ./.git/objects/04
+2011-04-23 15:06:33,909 - dexy - WARNING - skipping dir ./.git/objects/07
+2011-04-23 15:06:33,909 - dexy - WARNING - skipping dir ./.git/objects/0d
+2011-04-23 15:06:33,909 - dexy - WARNING - skipping dir ./.git/objects/10
+2011-04-23 15:06:33,909 - dexy - WARNING - skipping dir ./.git/objects/11
+2011-04-23 15:06:33,910 - dexy - WARNING - skipping dir ./.git/objects/12
+2011-04-23 15:06:33,910 - dexy - WARNING - skipping dir ./.git/objects/13
+2011-04-23 15:06:33,910 - dexy - WARNING - skipping dir ./.git/objects/1d
+2011-04-23 15:06:33,910 - dexy - WARNING - skipping dir ./.git/objects/1e
+2011-04-23 15:06:33,911 - dexy - WARNING - skipping dir ./.git/objects/1f
+2011-04-23 15:06:33,911 - dexy - WARNING - skipping dir ./.git/objects/25
+2011-04-23 15:06:33,911 - dexy - WARNING - skipping dir ./.git/objects/28
+2011-04-23 15:06:33,912 - dexy - WARNING - skipping dir ./.git/objects/2a
+2011-04-23 15:06:33,912 - dexy - WARNING - skipping dir ./.git/objects/2c
+2011-04-23 15:06:33,912 - dexy - WARNING - skipping dir ./.git/objects/2f
+2011-04-23 15:06:33,912 - dexy - WARNING - skipping dir ./.git/objects/31
+2011-04-23 15:06:33,913 - dexy - WARNING - skipping dir ./.git/objects/33
+2011-04-23 15:06:33,913 - dexy - WARNING - skipping dir ./.git/objects/3a
+2011-04-23 15:06:33,913 - dexy - WARNING - skipping dir ./.git/objects/3c
+2011-04-23 15:06:33,914 - dexy - WARNING - skipping dir ./.git/objects/3f
+2011-04-23 15:06:33,914 - dexy - WARNING - skipping dir ./.git/objects/47
+2011-04-23 15:06:33,914 - dexy - WARNING - skipping dir ./.git/objects/49
+2011-04-23 15:06:33,914 - dexy - WARNING - skipping dir ./.git/objects/4c
+2011-04-23 15:06:33,914 - dexy - WARNING - skipping dir ./.git/objects/50
+2011-04-23 15:06:33,915 - dexy - WARNING - skipping dir ./.git/objects/53
+2011-04-23 15:06:33,915 - dexy - WARNING - skipping dir ./.git/objects/57
+2011-04-23 15:06:33,915 - dexy - WARNING - skipping dir ./.git/objects/5a
+2011-04-23 15:06:33,915 - dexy - WARNING - skipping dir ./.git/objects/5b
+2011-04-23 15:06:33,916 - dexy - WARNING - skipping dir ./.git/objects/5c
+2011-04-23 15:06:33,916 - dexy - WARNING - skipping dir ./.git/objects/5d
+2011-04-23 15:06:33,916 - dexy - WARNING - skipping dir ./.git/objects/63
+2011-04-23 15:06:33,916 - dexy - WARNING - skipping dir ./.git/objects/64
+2011-04-23 15:06:33,917 - dexy - WARNING - skipping dir ./.git/objects/65
+2011-04-23 15:06:33,917 - dexy - WARNING - skipping dir ./.git/objects/67
+2011-04-23 15:06:33,917 - dexy - WARNING - skipping dir ./.git/objects/69
+2011-04-23 15:06:33,917 - dexy - WARNING - skipping dir ./.git/objects/6b
+2011-04-23 15:06:33,918 - dexy - WARNING - skipping dir ./.git/objects/79
+2011-04-23 15:06:33,918 - dexy - WARNING - skipping dir ./.git/objects/81
+2011-04-23 15:06:33,918 - dexy - WARNING - skipping dir ./.git/objects/8b
+2011-04-23 15:06:33,918 - dexy - WARNING - skipping dir ./.git/objects/8d
+2011-04-23 15:06:33,919 - dexy - WARNING - skipping dir ./.git/objects/8e
+2011-04-23 15:06:33,919 - dexy - WARNING - skipping dir ./.git/objects/8f
+2011-04-23 15:06:33,919 - dexy - WARNING - skipping dir ./.git/objects/92
+2011-04-23 15:06:33,919 - dexy - WARNING - skipping dir ./.git/objects/98
+2011-04-23 15:06:33,920 - dexy - WARNING - skipping dir ./.git/objects/a2
+2011-04-23 15:06:33,920 - dexy - WARNING - skipping dir ./.git/objects/a7
+2011-04-23 15:06:33,920 - dexy - WARNING - skipping dir ./.git/objects/a8
+2011-04-23 15:06:33,920 - dexy - WARNING - skipping dir ./.git/objects/aa
+2011-04-23 15:06:33,920 - dexy - WARNING - skipping dir ./.git/objects/ab
+2011-04-23 15:06:33,921 - dexy - WARNING - skipping dir ./.git/objects/ad
+2011-04-23 15:06:33,921 - dexy - WARNING - skipping dir ./.git/objects/b2
+2011-04-23 15:06:33,921 - dexy - WARNING - skipping dir ./.git/objects/b4
+2011-04-23 15:06:33,921 - dexy - WARNING - skipping dir ./.git/objects/b7
+2011-04-23 15:06:33,921 - dexy - WARNING - skipping dir ./.git/objects/b8
+2011-04-23 15:06:33,922 - dexy - WARNING - skipping dir ./.git/objects/bc
+2011-04-23 15:06:33,922 - dexy - WARNING - skipping dir ./.git/objects/bf
+2011-04-23 15:06:33,922 - dexy - WARNING - skipping dir ./.git/objects/c6
+2011-04-23 15:06:33,922 - dexy - WARNING - skipping dir ./.git/objects/c8
+2011-04-23 15:06:33,923 - dexy - WARNING - skipping dir ./.git/objects/d0
+2011-04-23 15:06:33,923 - dexy - WARNING - skipping dir ./.git/objects/d1
+2011-04-23 15:06:33,923 - dexy - WARNING - skipping dir ./.git/objects/d5
+2011-04-23 15:06:33,923 - dexy - WARNING - skipping dir ./.git/objects/d6
+2011-04-23 15:06:33,924 - dexy - WARNING - skipping dir ./.git/objects/e9
+2011-04-23 15:06:33,924 - dexy - WARNING - skipping dir ./.git/objects/ea
+2011-04-23 15:06:33,924 - dexy - WARNING - skipping dir ./.git/objects/f1
+2011-04-23 15:06:33,924 - dexy - WARNING - skipping dir ./.git/objects/f3
+2011-04-23 15:06:33,925 - dexy - WARNING - skipping dir ./.git/objects/f5
+2011-04-23 15:06:33,925 - dexy - WARNING - skipping dir ./.git/objects/f6
+2011-04-23 15:06:33,925 - dexy - WARNING - skipping dir ./.git/objects/f8
+2011-04-23 15:06:33,925 - dexy - WARNING - skipping dir ./.git/objects/fc
+2011-04-23 15:06:33,926 - dexy - WARNING - skipping dir ./.git/objects/fd
+2011-04-23 15:06:33,926 - dexy - WARNING - skipping dir ./.git/objects/info
+2011-04-23 15:06:33,926 - dexy - WARNING - skipping dir ./.git/objects/pack
+2011-04-23 15:06:33,926 - dexy - WARNING - skipping dir ./.git/refs
+2011-04-23 15:06:33,926 - dexy - WARNING - skipping dir ./.git/refs/heads
+2011-04-23 15:06:33,927 - dexy - WARNING - skipping dir ./.git/refs/remotes
+2011-04-23 15:06:33,927 - dexy - WARNING - skipping dir ./.git/refs/remotes/origin
+2011-04-23 15:06:33,927 - dexy - WARNING - skipping dir ./.git/refs/tags
+2011-04-23 15:06:33,928 - dexy - WARNING - skipping dir ./artifacts
+2011-04-23 15:06:33,928 - dexy - WARNING - skipping dir ./logs
+2011-04-23 15:06:33,929 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-36-44
+2011-04-23 15:06:33,929 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-36-44/lib
+2011-04-23 15:06:33,929 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-36-44/lib/css
+2011-04-23 15:06:33,929 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-36-44/lib/images
+2011-04-23 15:06:33,930 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-42-28
+2011-04-23 15:06:33,930 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-42-28/lib
+2011-04-23 15:06:33,930 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-42-28/lib/css
+2011-04-23 15:06:33,931 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-42-28/lib/images
+2011-04-23 15:06:33,931 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-22
+2011-04-23 15:06:33,931 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-22/lib
+2011-04-23 15:06:33,931 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-22/lib/css
+2011-04-23 15:06:33,932 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-22/lib/images
+2011-04-23 15:06:33,932 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-44
+2011-04-23 15:06:33,932 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-44/lib
+2011-04-23 15:06:33,933 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-44/lib/css
+2011-04-23 15:06:33,933 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-51-44/lib/images
+2011-04-23 15:06:33,933 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-55-19
+2011-04-23 15:06:33,933 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-55-19/lib
+2011-04-23 15:06:33,934 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-55-19/lib/css
+2011-04-23 15:06:33,934 - dexy - WARNING - skipping dir ./logs/run-2011-04-23--14-55-19/lib/images
+2011-04-23 15:06:33,934 - dexy - WARNING - skipping dir ./output
+2011-04-23 15:06:33,935 - dexy - WARNING - skipping dir ./output-long
+2011-04-23 15:06:33,935 - dexy - INFO - Automatically loading all filters found in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers
+2011-04-23 15:06:33,935 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/asciidoc.py
+2011-04-23 15:06:33,947 - dexy - INFO - class AsciidocHandler is not available because asciidoc -b not found
+2011-04-23 15:06:33,947 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/blog_handler.py
+2011-04-23 15:06:33,948 - dexy - INFO - class BlogHandler is not available because it has no aliases
+2011-04-23 15:06:33,948 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/boto_handlers.py
+2011-04-23 15:06:33,949 - dexy - WARNING - filters defined in handlers.boto_handlers are not available: No module named boto.s3.key
+2011-04-23 15:06:33,949 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/clang.py
+2011-04-23 15:06:33,955 - dexy - INFO - registered alias c for class CHandler
+2011-04-23 15:06:33,956 - dexy - INFO - registered alias gcc for class CHandler
+2011-04-23 15:06:33,964 - dexy - INFO - registered alias clang for class ClangHandler
+2011-04-23 15:06:33,971 - dexy - INFO - registered alias cint for class ClangInteractiveHandler
+2011-04-23 15:06:33,979 - dexy - INFO - registered alias ctime for class ClangTimingHandler
+2011-04-23 15:06:33,985 - dexy - INFO - registered alias cpp for class CppHandler
+2011-04-23 15:06:33,986 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/cucumber_handler.py
+2011-04-23 15:06:33,992 - dexy - INFO - class CucumberHandler is not available because cucumber not found
+2011-04-23 15:06:33,992 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/idio_handler.py
+2011-04-23 15:06:34,002 - dexy - INFO - registered alias idio for class IdioHandler
+2011-04-23 15:06:34,002 - dexy - INFO - registered alias idiopidae for class IdioHandler
+2011-04-23 15:06:34,002 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/java_handlers.py
+2011-04-23 15:06:34,016 - dexy - INFO - registered alias java for class JavaHandler
+2011-04-23 15:06:34,016 - dexy - INFO - registered alias javadoc for class JavadocsJsonFilter
+2011-04-23 15:06:34,017 - dexy - INFO - registered alias javadocs for class JavadocsJsonFilter
+2011-04-23 15:06:34,022 - dexy - INFO - class JirbHandler is not available because jirb --prompt-mode simple not found
+2011-04-23 15:06:34,029 - dexy - INFO - class JrubyHandler is not available because jruby not found
+2011-04-23 15:06:34,038 - dexy - INFO - class JythonHandler is not available because jython not found
+2011-04-23 15:06:34,044 - dexy - INFO - class JythonInteractiveHandler is not available because jython -i not found
+2011-04-23 15:06:34,045 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/jinja_handler.py
+2011-04-23 15:06:34,061 - dexy - INFO - registered alias fn for class FilenameHandler
+2011-04-23 15:06:34,061 - dexy - INFO - registered alias jinja for class JinjaHandler
+2011-04-23 15:06:34,061 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/misc.py
+2011-04-23 15:06:34,062 - dexy - INFO - registered alias b for class ConvertBashFormatHandler
+2011-04-23 15:06:34,062 - dexy - INFO - registered alias forcebash for class ConvertBashFormatHandler
+2011-04-23 15:06:34,062 - dexy - INFO - registered alias ch for class ConvertHTMLFormatHandler
+2011-04-23 15:06:34,063 - dexy - INFO - registered alias ct for class ConvertTextFormatHandler
+2011-04-23 15:06:34,063 - dexy - INFO - registered alias h for class HtmlFormatHandler
+2011-04-23 15:06:34,063 - dexy - INFO - registered alias forcehtml for class HtmlFormatHandler
+2011-04-23 15:06:34,063 - dexy - INFO - registered alias j for class JsonFormatHandler
+2011-04-23 15:06:34,063 - dexy - INFO - registered alias forcejson for class JsonFormatHandler
+2011-04-23 15:06:34,063 - dexy - INFO - registered alias l for class LatexFormatHandler
+2011-04-23 15:06:34,063 - dexy - INFO - registered alias forcelatex for class LatexFormatHandler
+2011-04-23 15:06:34,064 - dexy - INFO - registered alias p for class PdfFormatHandler
+2011-04-23 15:06:34,064 - dexy - INFO - registered alias forcepdf for class PdfFormatHandler
+2011-04-23 15:06:34,064 - dexy - INFO - registered alias forcer for class RFormatHandler
+2011-04-23 15:06:34,064 - dexy - INFO - registered alias t for class TextFormatHandler
+2011-04-23 15:06:34,064 - dexy - INFO - registered alias forcetext for class TextFormatHandler
+2011-04-23 15:06:34,064 - dexy - INFO - registered alias x for class XmlFormatHandler
+2011-04-23 15:06:34,064 - dexy - INFO - registered alias forcexml for class XmlFormatHandler
+2011-04-23 15:06:34,064 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/pexpect_handlers.py
+2011-04-23 15:06:34,072 - dexy - INFO - registered alias clj for class ClojureInteractiveHandler
+2011-04-23 15:06:34,073 - dexy - INFO - registered alias cljint for class ClojureInteractiveHandler
+2011-04-23 15:06:34,081 - dexy - INFO - class DotHandler is not available because dot not found
+2011-04-23 15:06:34,092 - dexy - INFO - class Pdf2Jpg is not available because gs not found
+2011-04-23 15:06:34,104 - dexy - INFO - class Pdf2Png is not available because gs not found
+2011-04-23 15:06:34,113 - dexy - INFO - registered alias pycon for class ProcessLinewiseInteractiveHandler
+2011-04-23 15:06:34,132 - dexy - INFO - class ProcessSectionwiseInteractiveHandler is not available because R --quiet --vanilla not found
+2011-04-23 15:06:34,140 - dexy - INFO - registered alias timing for class ProcessTimingHandler
+2011-04-23 15:06:34,141 - dexy - INFO - registered alias pytime for class ProcessTimingHandler
+2011-04-23 15:06:34,148 - dexy - INFO - class Ps2Pdf is not available because ps2pdf not found
+2011-04-23 15:06:34,163 - dexy - INFO - class RagelRubyDotHandler is not available because ragel -R not found
+2011-04-23 15:06:34,171 - dexy - INFO - class RagelRubyHandler is not available because ragel -R not found
+2011-04-23 15:06:34,172 - dexy - INFO - registered alias voice for class VoiceHandler
+2011-04-23 15:06:34,172 - dexy - INFO - registered alias say for class VoiceHandler
+2011-04-23 15:06:34,172 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/posterous_handler.py
+2011-04-23 15:06:34,174 - dexy - WARNING - filters defined in handlers.posterous_handler are not available: No module named posterous
+2011-04-23 15:06:34,174 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/pyg_handler.py
+2011-04-23 15:06:34,175 - dexy - INFO - registered alias pyg for class PygHandler
+2011-04-23 15:06:34,175 - dexy - INFO - registered alias pygments for class PygHandler
+2011-04-23 15:06:34,176 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/pynliner_handler.py
+2011-04-23 15:06:34,176 - dexy - INFO - registered alias pynliner for class PynlinerHandler
+2011-04-23 15:06:34,176 - dexy - INFO - registered alias inlinecss for class PynlinerHandler
+2011-04-23 15:06:34,177 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/python_handlers.py
+2011-04-23 15:06:34,188 - dexy - INFO - registered alias archive for class ArchiveHandler
+2011-04-23 15:06:34,188 - dexy - INFO - registered alias tgz for class ArchiveHandler
+2011-04-23 15:06:34,188 - dexy - INFO - registered alias cp for class CopyHandler
+2011-04-23 15:06:34,188 - dexy - INFO - registered alias ft for class FooterHandler
+2011-04-23 15:06:34,188 - dexy - INFO - registered alias footer for class FooterHandler
+2011-04-23 15:06:34,188 - dexy - INFO - registered alias head for class HeadHandler
+2011-04-23 15:06:34,189 - dexy - INFO - registered alias hd for class HeaderHandler
+2011-04-23 15:06:34,189 - dexy - INFO - registered alias header for class HeaderHandler
+2011-04-23 15:06:34,189 - dexy - INFO - registered alias join for class JoinHandler
+2011-04-23 15:06:34,189 - dexy - INFO - registered alias split for class SplitHtmlHandler
+2011-04-23 15:06:34,189 - dexy - INFO - registered alias splithtml for class SplitHtmlHandler
+2011-04-23 15:06:34,189 - dexy - INFO - registered alias splitlatex for class SplitLatexHandler
+2011-04-23 15:06:34,189 - dexy - INFO - registered alias test for class TestHandler
+2011-04-23 15:06:34,189 - dexy - INFO - registered alias ww for class WordWrapHandler
+2011-04-23 15:06:34,189 - dexy - INFO - registered alias wrap for class WordWrapHandler
+2011-04-23 15:06:34,189 - dexy - INFO - registered alias zip for class ZipArchiveHandler
+2011-04-23 15:06:34,190 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/stdout_handlers.py
+2011-04-23 15:06:34,197 - dexy - INFO - registered alias bash for class BashHandler
+2011-04-23 15:06:34,204 - dexy - INFO - registered alias escript for class EscriptHandler
+2011-04-23 15:06:34,213 - dexy - INFO - class LuaHandler is not available because lua not found
+2011-04-23 15:06:34,225 - dexy - INFO - registered alias php for class PhpHandler
+2011-04-23 15:06:34,236 - dexy - INFO - registered alias py for class ProcessStdoutHandler
+2011-04-23 15:06:34,237 - dexy - INFO - registered alias python for class ProcessStdoutHandler
+2011-04-23 15:06:34,237 - dexy - INFO - registered alias pyout for class ProcessStdoutHandler
+2011-04-23 15:06:34,252 - dexy - INFO - class RdConvHandler is not available because R CMD Rdconv not found
+2011-04-23 15:06:34,261 - dexy - INFO - registered alias redcloth for class RedclothHandler
+2011-04-23 15:06:34,261 - dexy - INFO - registered alias textile for class RedclothHandler
+2011-04-23 15:06:34,270 - dexy - INFO - registered alias redclothl for class RedclothLatexHandler
+2011-04-23 15:06:34,270 - dexy - INFO - registered alias latextile for class RedclothLatexHandler
+2011-04-23 15:06:34,281 - dexy - INFO - class Rst2BeamerHandler is not available because rst2beamer not found
+2011-04-23 15:06:34,288 - dexy - INFO - class Rst2HtmlHandler is not available because rst2html.py not found
+2011-04-23 15:06:34,297 - dexy - INFO - class Rst2LatexHandler is not available because rst2latex.py not found
+2011-04-23 15:06:34,304 - dexy - INFO - registered alias rb for class RubyStdoutHandler
+2011-04-23 15:06:34,314 - dexy - INFO - class SloccountHandler is not available because sloccount not found
+2011-04-23 15:06:34,316 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/subprocess_handlers.py
+2011-04-23 15:06:34,325 - dexy - INFO - class EmbedFonts is not available because ps2pdf not found
+2011-04-23 15:06:34,326 - dexy - INFO - registered alias latex for class LatexHandler
+2011-04-23 15:06:34,332 - dexy - INFO - class RBatchHandler is not available because R CMD BATCH --vanilla --quiet --no-timing not found
+2011-04-23 15:06:34,342 - dexy - INFO - class ROutputBatchHandler is not available because R CMD BATCH --vanilla --quiet --slave --no-timing not found
+2011-04-23 15:06:34,351 - dexy - INFO - class Rd2PdfHandler is not available because R CMD Rd2pdf not found
+2011-04-23 15:06:34,352 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/tumblr_handler.py
+2011-04-23 15:06:34,353 - dexy - WARNING - filters defined in handlers.tumblr_handler are not available: No module named tumblr
+2011-04-23 15:06:34,353 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/vanillaforums_handlers.py
+2011-04-23 15:06:34,354 - dexy - WARNING - filters defined in handlers.vanillaforums_handlers are not available: No module named pycurl
+2011-04-23 15:06:34,354 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/word_press_handler.py
+2011-04-23 15:06:34,358 - dexy - INFO - class BlogHandler is not available because it has no aliases
+2011-04-23 15:06:34,358 - dexy - INFO - registered alias wp for class WordPressHandler
+2011-04-23 15:06:34,358 - dexy - INFO - ...finished loading filters from /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers
+2011-04-23 15:06:34,359 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/output_reporter.py
+2011-04-23 15:06:34,359 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/run_reporter.py
+2011-04-23 15:06:34,359 - dexy - DEBUG - About to process config
+
+2011-04-23 15:06:34,359 - dexy - DEBUG - {'.': {u'*.html|jinja': {u'allinputs': True}, u'*.rb|idio|inlinecss': {}, u'*.css|cp': {}}}
+2011-04-23 15:06:34,375 - pastie.css|cp - INFO - (step 0) pastie.css -> ba3637c7a4782cbd62bd09c4072ed859.css
+2011-04-23 15:06:34,397 - pastie.css|cp - INFO - (step 1) pastie.css|cp -> df1b0d4dee559e32d3de83f01b7bd424.css
+2011-04-23 15:06:34,410 - hello_world.rb|idio|inlinecss - INFO - (step 0) hello_world.rb -> 1bb81e6405668fc2fe04b04bdcc4fe66.rb
+2011-04-23 15:06:34,426 - hello_world.rb|idio|inlinecss - INFO - (step 1) hello_world.rb|idio -> 937a6ea5944b807ce3010081e8d0d9d9.html
+2011-04-23 15:06:34,454 - hello_world.rb|idio|inlinecss - INFO - (step 2) hello_world.rb|idio|inlinecss -> ed76e55ce41862cfd504ec6e1e5362cb.html
+2011-04-23 15:06:34,467 - hello_world.html|jinja - INFO - (step 0) hello_world.html -> a117056aa7f3f33f103a7be206d0a30c.html
+2011-04-23 15:06:34,504 - hello_world.html|jinja - INFO - (step 1) hello_world.html|jinja -> f606318ae3c6d14fe0d2896a320624f6.html

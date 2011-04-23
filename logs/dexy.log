@@ -1,0 +1,137 @@
+2011-04-23 14:36:43,548 - dexy - DEBUG - Loading artifacts in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/dexy/artifacts/file_system_json_artifact.py
+2011-04-23 14:36:43,550 - dexy - DEBUG - Loading artifacts in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/dexy/artifacts/riak_artifact.py
+2011-04-23 14:36:43,554 - dexy - WARNING - artifact defined in dexy.artifacts.riak_artifact are not available: No module named riak
+2011-04-23 14:36:43,554 - dexy - INFO - running dexy with recurse
+2011-04-23 14:36:43,554 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/output_reporter.py
+2011-04-23 14:36:43,556 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/run_reporter.py
+2011-04-23 14:36:44,352 - dexy - INFO - skipping directories named .bzr, .hg, .git, .svn, ignore, filters, artifacts, logs, cache, output-long, output
+2011-04-23 14:36:44,352 - dexy - INFO - processing dir .
+2011-04-23 14:36:44,353 - dexy - INFO - loading config ./.dexy
+2011-04-23 14:36:44,353 - dexy - INFO - loading config ././.dexy
+2011-04-23 14:36:44,353 - dexy - WARNING - skipping dir ./artifacts
+2011-04-23 14:36:44,353 - dexy - WARNING - skipping dir ./logs
+2011-04-23 14:36:44,354 - dexy - INFO - Automatically loading all filters found in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers
+2011-04-23 14:36:44,354 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/asciidoc.py
+2011-04-23 14:36:44,372 - dexy - INFO - class AsciidocHandler is not available because asciidoc -b not found
+2011-04-23 14:36:44,373 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/blog_handler.py
+2011-04-23 14:36:44,374 - dexy - INFO - class BlogHandler is not available because it has no aliases
+2011-04-23 14:36:44,374 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/boto_handlers.py
+2011-04-23 14:36:44,376 - dexy - WARNING - filters defined in handlers.boto_handlers are not available: No module named boto.s3.key
+2011-04-23 14:36:44,376 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/clang.py
+2011-04-23 14:36:44,384 - dexy - INFO - registered alias c for class CHandler
+2011-04-23 14:36:44,384 - dexy - INFO - registered alias gcc for class CHandler
+2011-04-23 14:36:44,391 - dexy - INFO - registered alias clang for class ClangHandler
+2011-04-23 14:36:44,402 - dexy - INFO - registered alias cint for class ClangInteractiveHandler
+2011-04-23 14:36:44,409 - dexy - INFO - registered alias ctime for class ClangTimingHandler
+2011-04-23 14:36:44,417 - dexy - INFO - registered alias cpp for class CppHandler
+2011-04-23 14:36:44,418 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/cucumber_handler.py
+2011-04-23 14:36:44,426 - dexy - INFO - class CucumberHandler is not available because cucumber not found
+2011-04-23 14:36:44,427 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/idio_handler.py
+2011-04-23 14:36:44,441 - dexy - INFO - registered alias idio for class IdioHandler
+2011-04-23 14:36:44,441 - dexy - INFO - registered alias idiopidae for class IdioHandler
+2011-04-23 14:36:44,441 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/java_handlers.py
+2011-04-23 14:36:44,461 - dexy - INFO - registered alias java for class JavaHandler
+2011-04-23 14:36:44,462 - dexy - INFO - registered alias javadoc for class JavadocsJsonFilter
+2011-04-23 14:36:44,462 - dexy - INFO - registered alias javadocs for class JavadocsJsonFilter
+2011-04-23 14:36:44,469 - dexy - INFO - class JirbHandler is not available because jirb --prompt-mode simple not found
+2011-04-23 14:36:44,476 - dexy - INFO - class JrubyHandler is not available because jruby not found
+2011-04-23 14:36:44,482 - dexy - INFO - class JythonHandler is not available because jython not found
+2011-04-23 14:36:44,493 - dexy - INFO - class JythonInteractiveHandler is not available because jython -i not found
+2011-04-23 14:36:44,494 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/jinja_handler.py
+2011-04-23 14:36:44,517 - dexy - INFO - registered alias fn for class FilenameHandler
+2011-04-23 14:36:44,517 - dexy - INFO - registered alias jinja for class JinjaHandler
+2011-04-23 14:36:44,517 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/misc.py
+2011-04-23 14:36:44,519 - dexy - INFO - registered alias b for class ConvertBashFormatHandler
+2011-04-23 14:36:44,519 - dexy - INFO - registered alias forcebash for class ConvertBashFormatHandler
+2011-04-23 14:36:44,519 - dexy - INFO - registered alias ch for class ConvertHTMLFormatHandler
+2011-04-23 14:36:44,519 - dexy - INFO - registered alias ct for class ConvertTextFormatHandler
+2011-04-23 14:36:44,519 - dexy - INFO - registered alias h for class HtmlFormatHandler
+2011-04-23 14:36:44,519 - dexy - INFO - registered alias forcehtml for class HtmlFormatHandler
+2011-04-23 14:36:44,520 - dexy - INFO - registered alias j for class JsonFormatHandler
+2011-04-23 14:36:44,520 - dexy - INFO - registered alias forcejson for class JsonFormatHandler
+2011-04-23 14:36:44,520 - dexy - INFO - registered alias l for class LatexFormatHandler
+2011-04-23 14:36:44,520 - dexy - INFO - registered alias forcelatex for class LatexFormatHandler
+2011-04-23 14:36:44,520 - dexy - INFO - registered alias p for class PdfFormatHandler
+2011-04-23 14:36:44,520 - dexy - INFO - registered alias forcepdf for class PdfFormatHandler
+2011-04-23 14:36:44,520 - dexy - INFO - registered alias forcer for class RFormatHandler
+2011-04-23 14:36:44,520 - dexy - INFO - registered alias t for class TextFormatHandler
+2011-04-23 14:36:44,521 - dexy - INFO - registered alias forcetext for class TextFormatHandler
+2011-04-23 14:36:44,521 - dexy - INFO - registered alias x for class XmlFormatHandler
+2011-04-23 14:36:44,521 - dexy - INFO - registered alias forcexml for class XmlFormatHandler
+2011-04-23 14:36:44,521 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/pexpect_handlers.py
+2011-04-23 14:36:44,528 - dexy - INFO - registered alias clj for class ClojureInteractiveHandler
+2011-04-23 14:36:44,529 - dexy - INFO - registered alias cljint for class ClojureInteractiveHandler
+2011-04-23 14:36:44,536 - dexy - INFO - class DotHandler is not available because dot not found
+2011-04-23 14:36:44,544 - dexy - INFO - class Pdf2Jpg is not available because gs not found
+2011-04-23 14:36:44,552 - dexy - INFO - class Pdf2Png is not available because gs not found
+2011-04-23 14:36:44,558 - dexy - INFO - registered alias pycon for class ProcessLinewiseInteractiveHandler
+2011-04-23 14:36:44,566 - dexy - INFO - class ProcessSectionwiseInteractiveHandler is not available because R --quiet --vanilla not found
+2011-04-23 14:36:44,573 - dexy - INFO - registered alias timing for class ProcessTimingHandler
+2011-04-23 14:36:44,574 - dexy - INFO - registered alias pytime for class ProcessTimingHandler
+2011-04-23 14:36:44,582 - dexy - INFO - class Ps2Pdf is not available because ps2pdf not found
+2011-04-23 14:36:44,589 - dexy - INFO - class RagelRubyDotHandler is not available because ragel -R not found
+2011-04-23 14:36:44,596 - dexy - INFO - class RagelRubyHandler is not available because ragel -R not found
+2011-04-23 14:36:44,597 - dexy - INFO - registered alias voice for class VoiceHandler
+2011-04-23 14:36:44,597 - dexy - INFO - registered alias say for class VoiceHandler
+2011-04-23 14:36:44,597 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/posterous_handler.py
+2011-04-23 14:36:44,599 - dexy - WARNING - filters defined in handlers.posterous_handler are not available: No module named posterous
+2011-04-23 14:36:44,599 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/pyg_handler.py
+2011-04-23 14:36:44,600 - dexy - INFO - registered alias pyg for class PygHandler
+2011-04-23 14:36:44,600 - dexy - INFO - registered alias pygments for class PygHandler
+2011-04-23 14:36:44,600 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/pynliner_handler.py
+2011-04-23 14:36:44,601 - dexy - INFO - registered alias pynliner for class PynlinerHandler
+2011-04-23 14:36:44,601 - dexy - INFO - registered alias inlinecss for class PynlinerHandler
+2011-04-23 14:36:44,602 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/python_handlers.py
+2011-04-23 14:36:44,612 - dexy - INFO - registered alias archive for class ArchiveHandler
+2011-04-23 14:36:44,612 - dexy - INFO - registered alias tgz for class ArchiveHandler
+2011-04-23 14:36:44,612 - dexy - INFO - registered alias cp for class CopyHandler
+2011-04-23 14:36:44,612 - dexy - INFO - registered alias ft for class FooterHandler
+2011-04-23 14:36:44,612 - dexy - INFO - registered alias footer for class FooterHandler
+2011-04-23 14:36:44,613 - dexy - INFO - registered alias head for class HeadHandler
+2011-04-23 14:36:44,613 - dexy - INFO - registered alias hd for class HeaderHandler
+2011-04-23 14:36:44,613 - dexy - INFO - registered alias header for class HeaderHandler
+2011-04-23 14:36:44,613 - dexy - INFO - registered alias join for class JoinHandler
+2011-04-23 14:36:44,613 - dexy - INFO - registered alias split for class SplitHtmlHandler
+2011-04-23 14:36:44,613 - dexy - INFO - registered alias splithtml for class SplitHtmlHandler
+2011-04-23 14:36:44,613 - dexy - INFO - registered alias splitlatex for class SplitLatexHandler
+2011-04-23 14:36:44,613 - dexy - INFO - registered alias test for class TestHandler
+2011-04-23 14:36:44,613 - dexy - INFO - registered alias ww for class WordWrapHandler
+2011-04-23 14:36:44,613 - dexy - INFO - registered alias wrap for class WordWrapHandler
+2011-04-23 14:36:44,614 - dexy - INFO - registered alias zip for class ZipArchiveHandler
+2011-04-23 14:36:44,614 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/stdout_handlers.py
+2011-04-23 14:36:44,620 - dexy - INFO - registered alias bash for class BashHandler
+2011-04-23 14:36:44,627 - dexy - INFO - registered alias escript for class EscriptHandler
+2011-04-23 14:36:44,635 - dexy - INFO - class LuaHandler is not available because lua not found
+2011-04-23 14:36:44,647 - dexy - INFO - registered alias php for class PhpHandler
+2011-04-23 14:36:44,655 - dexy - INFO - registered alias py for class ProcessStdoutHandler
+2011-04-23 14:36:44,655 - dexy - INFO - registered alias python for class ProcessStdoutHandler
+2011-04-23 14:36:44,656 - dexy - INFO - registered alias pyout for class ProcessStdoutHandler
+2011-04-23 14:36:44,663 - dexy - INFO - class RdConvHandler is not available because R CMD Rdconv not found
+2011-04-23 14:36:44,672 - dexy - INFO - registered alias redcloth for class RedclothHandler
+2011-04-23 14:36:44,672 - dexy - INFO - registered alias textile for class RedclothHandler
+2011-04-23 14:36:44,678 - dexy - INFO - registered alias redclothl for class RedclothLatexHandler
+2011-04-23 14:36:44,679 - dexy - INFO - registered alias latextile for class RedclothLatexHandler
+2011-04-23 14:36:44,685 - dexy - INFO - class Rst2BeamerHandler is not available because rst2beamer not found
+2011-04-23 14:36:44,694 - dexy - INFO - class Rst2HtmlHandler is not available because rst2html.py not found
+2011-04-23 14:36:44,702 - dexy - INFO - class Rst2LatexHandler is not available because rst2latex.py not found
+2011-04-23 14:36:44,709 - dexy - INFO - registered alias rb for class RubyStdoutHandler
+2011-04-23 14:36:44,717 - dexy - INFO - class SloccountHandler is not available because sloccount not found
+2011-04-23 14:36:44,718 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/subprocess_handlers.py
+2011-04-23 14:36:44,726 - dexy - INFO - class EmbedFonts is not available because ps2pdf not found
+2011-04-23 14:36:44,727 - dexy - INFO - registered alias latex for class LatexHandler
+2011-04-23 14:36:44,734 - dexy - INFO - class RBatchHandler is not available because R CMD BATCH --vanilla --quiet --no-timing not found
+2011-04-23 14:36:44,741 - dexy - INFO - class ROutputBatchHandler is not available because R CMD BATCH --vanilla --quiet --slave --no-timing not found
+2011-04-23 14:36:44,749 - dexy - INFO - class Rd2PdfHandler is not available because R CMD Rd2pdf not found
+2011-04-23 14:36:44,749 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/tumblr_handler.py
+2011-04-23 14:36:44,751 - dexy - WARNING - filters defined in handlers.tumblr_handler are not available: No module named tumblr
+2011-04-23 14:36:44,751 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/vanillaforums_handlers.py
+2011-04-23 14:36:44,754 - dexy - WARNING - filters defined in handlers.vanillaforums_handlers are not available: No module named pycurl
+2011-04-23 14:36:44,754 - dexy - INFO - Loading filters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers/word_press_handler.py
+2011-04-23 14:36:44,762 - dexy - INFO - class BlogHandler is not available because it has no aliases
+2011-04-23 14:36:44,762 - dexy - INFO - registered alias wp for class WordPressHandler
+2011-04-23 14:36:44,762 - dexy - INFO - ...finished loading filters from /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/handlers
+2011-04-23 14:36:44,762 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/output_reporter.py
+2011-04-23 14:36:44,763 - dexy - INFO - Loading reporters in /Library/Python/2.6/site-packages/dexy-0.3.2-py2.6.egg/reporters/run_reporter.py
+2011-04-23 14:36:44,763 - dexy - DEBUG - About to process config
+
+2011-04-23 14:36:44,763 - dexy - DEBUG - {'.': {}}

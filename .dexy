@@ -1,2 +1,7 @@
 {
+    "*.html|jinja": {
+        "allinputs": true
+    },
+    "*.css|cp": {},
+    "*.rb|pyg": {}
 }

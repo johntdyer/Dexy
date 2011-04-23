@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="pastie.css" />
+  <meta charset="UTF-8">
+  <title>Hello World</title>
+</head>
+  <body>
+    Hey this is how to do a simple hello world application using Tropo WebAPI  
+    <p>Source Code</p>
+    <p>First we include our libs</p>
+      <div class="highlight"><pre><span class="sx">%w(rubygems sinatra tropo-webapi-ruby awesome_print)</span><span class="o">.</span><span class="n">each</span><span class="p">{</span><span class="o">|</span><span class="n">lib</span><span class="o">|</span> <span class="nb">require</span> <span class="n">lib</span><span class="p">}</span>
+</pre></div>
+
+      <p>Then we set our env</p>
+      <div class="highlight"><pre><span class="n">enable</span> <span class="ss">:sessions</span>
+</pre></div>
+
+      <h1>Routes</h1>
+      <!-- Routes -->
+      <h2>Place a call</h2>
+        <div class="highlight"><pre><span class="n">post</span> <span class="s1">&#39;/&#39;</span> <span class="k">do</span>
+     <span class="n">tropo_session</span> <span class="o">=</span> <span class="no">Tropo</span><span class="o">::</span><span class="no">Generator</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">env</span><span class="o">[</span><span class="s2">&quot;rack.input&quot;</span><span class="o">].</span><span class="n">read</span><span class="p">)</span>
+     <span class="n">session</span><span class="o">[</span><span class="s1">&#39;message_to_play&#39;</span><span class="o">]</span> <span class="o">=</span> <span class="n">tropo_session</span><span class="o">[</span><span class="s1">&#39;session&#39;</span><span class="o">][</span><span class="s1">&#39;parameters&#39;</span><span class="o">][</span><span class="s1">&#39;message&#39;</span><span class="o">]</span>
+     <span class="n">ap</span> <span class="n">tropo_session</span>          <span class="c1"># LOG TO CONSOLE</span>
+          <span class="n">tropo</span> <span class="o">=</span> <span class="no">Tropo</span><span class="o">::</span><span class="no">Generator</span><span class="o">.</span><span class="n">new</span> <span class="k">do</span>
+            <span class="n">on</span> <span class="ss">:event</span> <span class="o">=&gt;</span> <span class="s1">&#39;hangup&#39;</span><span class="p">,</span> <span class="ss">:next</span> <span class="o">=&gt;</span> <span class="s1">&#39;/hangup.json&#39;</span>
+            <span class="n">on</span> <span class="ss">:event</span> <span class="o">=&gt;</span> <span class="s1">&#39;continue&#39;</span><span class="p">,</span> <span class="ss">:next</span> <span class="o">=&gt;</span> <span class="s1">&#39;/speak.json&#39;</span>
+          <span class="n">call</span><span class="p">(</span><span class="ss">:to</span><span class="o">=&gt;</span><span class="s2">&quot;tel:+1&quot;</span> <span class="o">+</span> <span class="n">tropo_session</span><span class="o">[</span><span class="s1">&#39;session&#39;</span><span class="o">][</span><span class="s1">&#39;parameters&#39;</span><span class="o">][</span><span class="s1">&#39;number_to_dial&#39;</span><span class="o">]</span><span class="p">,</span><span class="ss">:from</span> <span class="o">=&gt;</span> <span class="s1">&#39;4078350065&#39;</span><span class="p">)</span>            
+          <span class="k">end</span>
+  <span class="n">tropo</span><span class="o">.</span><span class="n">response</span>
+<span class="k">end</span>
+</pre></div>
+
+      <h2>We then speak</h2>
+        <div class="highlight"><pre><span class="n">post</span> <span class="s1">&#39;/speak.json&#39;</span> <span class="k">do</span>
+  <span class="n">msg</span> <span class="o">=</span> <span class="n">session</span><span class="o">[</span><span class="s1">&#39;message_to_play&#39;</span><span class="o">]</span>
+  <span class="n">ap</span> <span class="no">Tropo</span><span class="o">::</span><span class="no">Generator</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">env</span><span class="o">[</span><span class="s2">&quot;rack.input&quot;</span><span class="o">].</span><span class="n">read</span><span class="p">)</span>
+  <span class="n">tropo</span> <span class="o">=</span> <span class="no">Tropo</span><span class="o">::</span><span class="no">Generator</span><span class="o">.</span><span class="n">new</span> <span class="k">do</span>
+    <span class="n">on</span> <span class="ss">:event</span> <span class="o">=&gt;</span> <span class="s1">&#39;hangup&#39;</span><span class="p">,</span> <span class="ss">:next</span> <span class="o">=&gt;</span> <span class="s1">&#39;/hangup.json&#39;</span>   
+    <span class="n">say</span> <span class="n">msg</span>
+  <span class="k">end</span>
+  <span class="n">tropo</span><span class="o">.</span><span class="n">response</span>
+<span class="k">end</span>
+</pre></div>
+      
+      <h2>We then hangup</h2>
+        <div class="highlight"><pre><span class="n">post</span> <span class="s1">&#39;/hangup.json&#39;</span> <span class="k">do</span>
+  <span class="n">json_string</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">env</span><span class="o">[</span><span class="s2">&quot;rack.input&quot;</span><span class="o">].</span><span class="n">read</span>
+  <span class="n">tropo_session</span> <span class="o">=</span> <span class="no">Tropo</span><span class="o">::</span><span class="no">Generator</span><span class="o">.</span><span class="n">parse</span> <span class="n">json_string</span>
+  <span class="n">ap</span> <span class="n">tropo_session</span>
+<span class="k">end</span>
+</pre></div>
+      
+  </body>
+</html>

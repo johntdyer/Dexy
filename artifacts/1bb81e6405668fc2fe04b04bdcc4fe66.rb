@@ -1,10 +1,7 @@
-### @export "requires"
 %w(rubygems sinatra tropo-webapi-ruby awesome_print).each{|lib| require lib}
 
-### @export "environment"
 enable :sessions
 
-### @export "root"
 post '/' do
      tropo_session = Tropo::Generator.parse(request.env["rack.input"].read)
      session['message_to_play'] = tropo_session['session']['parameters']['message']
@@ -17,7 +14,6 @@ post '/' do
   tropo.response
 end
 
-### @export "speak"
 post '/speak.json' do
   msg = session['message_to_play']
   ap Tropo::Generator.parse(request.env["rack.input"].read)
@@ -28,7 +24,6 @@ post '/speak.json' do
   tropo.response
 end
 
-### @export "hangup"
 post '/hangup.json' do
   json_string = request.env["rack.input"].read
   tropo_session = Tropo::Generator.parse json_string

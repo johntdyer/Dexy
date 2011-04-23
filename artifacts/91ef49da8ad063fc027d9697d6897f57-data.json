@@ -1,0 +1,1 @@
+{"0000:1": "<!DOCTYPE HTML>\n<html lang=\"en-US\">\n<head>\n  <link rel=\"stylesheet\" href=\"pastie.css\" />\n  <meta charset=\"UTF-8\">\n  <title>Hello World</title>\n</head>\n  <body>\n    Hey this is how to do a simple hello world application using Tropo WebAPI  \n    <p>Source Code</p>\n      {{d['hello_world.rb|pyg']}}\n  </body>\n</html>"}

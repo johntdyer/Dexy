@@ -3,5 +3,5 @@
         "allinputs": true
     },
     "*.css|cp": {},
-    "*.rb|idio": {}
+    "*.rb|idio|inlinecss": {}
 }
